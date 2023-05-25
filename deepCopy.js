@@ -1,12 +1,14 @@
+//create ist object
 const o={
 	a:"a",
 	b:"b",
 	obj:{
 		key:"keys"}
 }
+//create a deepcopy function
 function deepCopy(obj){
 	const keys=Object.keys(obj)
-//	const newObject() = {}
+	//create new object which contains all keys having object datatype
 	 const newObject = new Object()
 	for(let i=0;i< keys.length;i++){
 		const key=keys[i]
@@ -20,6 +22,7 @@ function deepCopy(obj){
 	return newObject
 }
 
+//create new object which contains copy of o and can be acessed by using o3 also
 const o3= deepCopy(o)
 o.obj.key="new key"
 
