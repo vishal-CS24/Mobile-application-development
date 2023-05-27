@@ -1,3 +1,4 @@
+//its just a test program on vim
 def sum1(n):
    s1=0
    for i in range(n+1):
