@@ -42,3 +42,7 @@ const notHosted = function(){
 	console.log("hey this is const function")
 }
 notHosted()
+
+ //global variable declaration
+ x=10
+ console.log(typeof x)
