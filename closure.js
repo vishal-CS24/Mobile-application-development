@@ -10,3 +10,6 @@ function makeFunctionArray(){
 const arr= makeFunctionArray()
 
 arr[0]()
+
+// it prints 0 if we use let
+//it prints 5 if we use var --> its a bug because var lifecycle basically tells the function  end
